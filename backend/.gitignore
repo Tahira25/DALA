@@ -1,0 +1,27 @@
+# .gitignore in the backend directory
+
+# Python
+*.pyc
+__pycache__/
+env/
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# Environment variables
+.env
+
+# Django specific
+db.sqlite3
+/static/
+media/
+
+# Others
+*.swp
+.idea/
+.vscode/
+venv/
